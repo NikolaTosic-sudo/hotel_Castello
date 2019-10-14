@@ -1,0 +1,103 @@
+.nav {
+    background: black
+}
+
+.dropdown-menu{
+    background: black
+}
+
+.dropdown-menu > a:hover {
+    background: black;
+    color: white
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+#slide {
+    height: 500px;
+    max-height: 500px
+}
+
+#slideslika {
+    height: 500px;
+    max-height: 500px;
+}
+
+.items {
+    font-size: 18px
+}
+
+.pnav {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.navdiv:hover{
+    border-bottom: 3px solid white;
+}
+
+.carousel-caption {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.397);
+    font-weight: bold;
+    font-size: 45px;
+    width: 800px;
+    bottom: 230px;
+}
+
+
+.doublearrow1, .doublearrow2 {
+    color: white;
+    visibility: hidden;
+}
+
+.rasiri:hover > .doublearrow1 {
+    margin-left: 35px;
+    visibility: visible;
+    transition: .3s ease-in-out
+}
+
+.rasiri:hover > .doublearrow2 {
+    margin-right: 35px;
+    visibility: visible;
+    transition: .3s ease-in-out
+}
+
+
+
+
+.secpar {
+    font-size: 25px
+}
+
+
+
+
+.footimg {
+    position: relative;
+    left: 200px;
+    padding-top: 5px
+}
+
+.box2 {
+    background-color: black;
+    height: 100px;
+}
+
+#up {
+    position: relative;
+    left: 50%;
+    animation: gore 2s infinite;
+}
+
+@keyframes gore {
+    0% {margin-top: -30px;}
+    50% {margin-top: -10px;}
+    100% {margin-top: -30px; }
+}
+
